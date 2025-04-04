@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYUSH Startup Registration Portal</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div>
+        <img src="Logo.png" height=" 150px" width="150px">
+    </div>
+    <header>
+        <h1>AYUSH Startup Registration Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="status.html">Track Status</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+    <body>
+        <div>
+            <img src="Add.png" height="350" width="400">
+        </div>
+        <main>
+            <h2>Welcome to the AYUSH Startup Registration Portal</h2>
+            <h3>Your gateway to streamlined startup registration.</h3>
+            <p>
+                Develop Your selfs with the Guidelines given by us and expand your startups. By the tieups we have.
+            </p> 
+            <p>WE ARE THE PEOPLE BORN TO SERVE THE PEOPLE WITH OUR BUSSINESS
+            </p>
+        </main>
+        <footer>
+            <h4>© 2025 AYUSH Startup Registration Portal</h4>
+        </footer>
+    </body>
+</body>
+</html>
+<form action="submit.php" method="post" enctype="multipart/form-data">
+    <h2>Startup Registration</h2>
+    <div class="form-group">
+        <label for="name">Startup Name:</label>
+        <input type="text" id="name" name="name" placeholder="">
+    </div>
+    <h1></h1>
+    <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="">  
+    </div>
+    <h1></h1>
+    <div class="form-group">
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="" >
+    </div>
+    <h1></h1>
+    <div class="form-group">
+        <label for="category">AYUSH Category:</label> 
+        <select id="category" name="category">
+            <option value="ayurveda">Ayurveda</option>
+            <option value="yoga">Yoga & Naturopathy</option>
+            <option value="unani">Unani</option>
+            <option value="siddha">Siddha</option>
+            <option value="homoeopathy">Homoeopathy</option>
+        </select>
+    </div>
+    <h1></h1>
+    <div class="form-group">
+        <label for="documents">Upload Documents:</label>
+        <input type="file" id="documents" name="documents[]" multiple placeholder="">
+    </div>
+    <h1></h1>
+    <button type="submit">Submit Application</button>
+</form>
+<form action="track.php" method="post">
+    <h2>Track Your Application</h2>
+    
+    <label for="tracking_id">Enter Tracking ID:</label>
+    <input type="text" id="tracking_id" name="tracking_id" required>
+
+    <button type="submit">Check Status</button>
+</form>
+<section>
+    <h2>Support & FAQs</h2>
+    <p>Have questions? Browse our FAQs or contact support.</p>
+
+    <h3>How long does the registration process take?</h3>
+    <p>It typically takes 2-4 weeks for approval.</p>
+
+    <h3>What documents are required?</h3>
+    <p>You need a business registration certificate, AYUSH license, and other relevant documents.</p>
+</section>
